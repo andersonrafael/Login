@@ -1,0 +1,50 @@
+.login {
+    width: 140px;
+    height: 400px;
+    background: #2c2c2c;
+    padding: 47px;
+    padding-bottom: 57px;
+    color: aliceblue;
+    border-radius: 17px;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    opacity: 1;
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 13px 18px;
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
+    border-radius: 100px;
+    background: #3c3c3c;
+    color: aliceblue;
+}
+
+.login input:focus {
+    animation: bounce 1s;
+    -webkit-appearance: none;
+}
+
+.login input[type="submit"],
+.login input[type="button"] .h1 {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 13px;
+    margin: 40px 0 0 0;
+    border-radius: 500px;
+    font-weight: 600;
+    animation: buonce2 1.6s;
+}
+
+.h1 {
+    padding: 0;
+}
