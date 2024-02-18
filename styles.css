@@ -1,14 +1,16 @@
 .login {
-    width: 140px;
+    display: block;
+    width: 340px;
     height: 400px;
     background: #2c2c2c;
-    padding: 47px;
-    padding-bottom: 57px;
+    padding: 100px;
     color: aliceblue;
     border-radius: 17px;
-    padding-bottom: 50px;
-    font-size: 1.3em;
+    padding-bottom: 10px;
+    font-size: 1.6em;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular',
         'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -19,32 +21,73 @@
     display: block;
     border: none;
     outline: none;
-    width: 100%;
-    padding-left: 13px 18px;
+    width: 90%;
+    padding: 13px 18px;
     margin: 20px 0 0 0;
     font-size: 0.8em;
     border-radius: 100px;
     background: #3c3c3c;
-    color: aliceblue;
+    color: rgb(7, 127, 232);
 }
 
 .login input:focus {
-    animation: bounce 1s;
+    animation: ease-in-out 1s;
     -webkit-appearance: none;
 }
 
-.login input[type="submit"],
-.login input[type="button"] .h1 {
-    border: 0;
+.login input[type=submit],
+.login input[type=button] .h1 {
+    border: none;
     outline: 0;
     width: 100%;
     padding: 13px;
     margin: 40px 0 0 0;
-    border-radius: 500px;
+    border-radius: 100px;
     font-weight: 600;
-    animation: buonce2 1.6s;
+    animation: ease-in-out 2.6s;
 }
 
 .h1 {
     padding: 0;
+    position: relative;
+    top: -5px;
+    display: block;
+    font-size: 1.3em;
 }
+
+.btn {
+    background: linear-gradient(144deg, #af40ff, #5b42f3, 50%, #00ddeb);
+    color: rgb(245, 246, 248);
+    padding: 15px !important;
+    font-size: 0.7em;
+    margin: 10px;
+}
+
+.btn :hover {
+    background: linear-gradient(144deg, #1e1e1e, 20%, #1e1e1e, 50%, #1e1e1e);
+    color: rgb(255, 255, 255);
+    padding: 16px !important;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.login input[type=text] {
+    animation: backwards 1s;
+    -webkit-appearance: none;
+}
+
+.login input[type=password] {
+    animation: ease-in-out 2.3s;
+}
+
+/*.ui {
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#6563ff, #535efc, #0EC8EE);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(0, 25turn, #535efc, #0ec8ee, #0ec8ee);
+    border-image-slice: 1;
+    display: inline;
+}*/
