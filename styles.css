@@ -61,15 +61,19 @@
     padding: 15px !important;
     font-size: 0.7em;
     margin: 10px;
+    border-radius: 40px;
+    width: 100%;
+    padding: 13px 18px;
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
 }
 
-.btn :hover {
+/*.btn :hover {
     background: linear-gradient(144deg, #1e1e1e, 20%, #1e1e1e, 50%, #1e1e1e);
     color: rgb(255, 255, 255);
     padding: 16px !important;
     cursor: pointer;
-    transition: all 1s ease;
-}
+}*/
 
 .login input[type=text] {
     animation: backwards 1s;
